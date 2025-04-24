@@ -1,0 +1,28 @@
+2025-04-24 17:10:20.411350+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE messages([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE messages([*]"; expected "identifier"; SQL statement:
+CREATE TABLE messages( [42001-232]
+2025-04-24 17:13:55.892562+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" уже существует
+Table "MESSAGES" already exists; SQL statement:
+CREATE TABLE messages( id varchar(60) primary key, text varchar not null ) [42101-232]
+2025-04-24 17:14:42.757420+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" уже существует
+Table "MESSAGES" already exists; SQL statement:
+CREATE TABLE messages( id varchar(60) primary key, text varchar not null ) [42101-232]
+2025-04-24 17:15:46.267039+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" уже существует
+Table "MESSAGES" already exists; SQL statement:
+CREATE TABLE messages( id varchar(60) primary key, text varchar not null ) [42101-232]
+2025-04-24 17:16:26.334829+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" уже существует
+Table "MESSAGES" already exists; SQL statement:
+CREATE TABLE messages( id varchar(60) primary key, text text not null ) [42101-232]
+2025-04-24 17:17:17.415941+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" уже существует
+Table "MESSAGES" already exists; SQL statement:
+CREATE TABLE messages( id varchar(60) primary key, text clob not null ) [42101-232]
+2025-04-24 17:18:03.316630+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" уже существует
+Table "MESSAGES" already exists; SQL statement:
+CREATE TABLE messages( id varchar(60) primary key, text LONGVARCHAR not null ) [42101-232]
