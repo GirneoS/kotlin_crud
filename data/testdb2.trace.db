@@ -1,0 +1,12 @@
+2025-04-24 17:53:04.458191+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" не найдена
+Table "MESSAGES" not found; SQL statement:
+drop table messages [42102-232]
+2025-04-24 17:55:01.622048+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" не найдена
+Table "MESSAGES" not found; SQL statement:
+drop table messages [42102-232]
+2025-04-24 17:55:14.956811+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGES" не найдена
+Table "MESSAGES" not found; SQL statement:
+drop table messages [42102-232]
